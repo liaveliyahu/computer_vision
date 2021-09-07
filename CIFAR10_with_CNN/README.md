@@ -18,11 +18,10 @@ The CIFAR-10 dataset is a collection of images that are commonly used to train m
 | dense (Dense)       | (None, 1024)       | 1180672  |
 | dropout_1 (Dropout) | (None, 1024)       | 0        |
 | dense_1 (Dense)     | (None, 10)         | 10250    |
-| ------------------- | ------------------ | -------- |
-| Total params: 1,284,170                             |
-| Trainable params: 1,284,170                         |
-| Non-trainable params: 0                             |
-| ------------------- | ------------------ | -------- |
+
+Total params: 1,284,170                             
+Trainable params: 1,284,170                         
+Non-trainable params: 0                             
 
 ## Results
 ### Loss
