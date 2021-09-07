@@ -1,6 +1,6 @@
-# CIFAR10_with_CNN
+# Fasion_MNIST_with_CNN
 <p align="left">
-  <img src="Assets\fashion_mnist.jpg" width="450">
+  <img src="Assets\fashion_mnist.png" width="450">
 </p>
 
 ## The Data
