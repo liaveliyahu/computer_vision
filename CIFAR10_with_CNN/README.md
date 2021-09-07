@@ -7,29 +7,22 @@
 The CIFAR-10 dataset is a collection of images that are commonly used to train machine learning and computer vision algorithms. It is one of the most widely used datasets for machine learning research. The CIFAR-10 dataset contains 60,000 32x32 color images in 10 different classes. The 10 different classes represent airplanes, cars, birds, cats, deer, dogs, frogs, horses, ships, and trucks. There are 6,000 images of each class.
 
 ## The Model
-_________________________________________________________________
-Layer (type)                 Output Shape              Param N
-=================================================================
-conv2d (Conv2D)              (None, 15, 15, 32)        896
-_________________________________________________________________
-conv2d_1 (Conv2D)            (None, 7, 7, 64)          18496
-_________________________________________________________________
-conv2d_2 (Conv2D)            (None, 3, 3, 128)         73856
-_________________________________________________________________
-flatten (Flatten)            (None, 1152)              0
-_________________________________________________________________
-dropout (Dropout)            (None, 1152)              0
-_________________________________________________________________
-dense (Dense)                (None, 1024)              1180672
-_________________________________________________________________
-dropout_1 (Dropout)          (None, 1024)              0
-_________________________________________________________________
-dense_1 (Dense)              (None, 10)                10250
-=================================================================
+
+| Layer (type)        | Output Shape       |  Param N |
+| ------------------- | ------------------ | -------- |
+| conv2d (Conv2D)     | (None, 15, 15, 32) | 896      |
+| conv2d_1 (Conv2D)   | (None, 7, 7, 64)   | 18496    |
+| conv2d_2 (Conv2D)   | (None, 3, 3, 128)  | 73856    |
+| flatten (Flatten)   | (None, 1152)       | 0        |
+| dropout (Dropout)   | (None, 1152)       | 0        |
+| dense (Dense)       | (None, 1024)       | 1180672  |
+| dropout_1 (Dropout) | (None, 1024)       | 0        |
+| dense_1 (Dense)     | (None, 10)         | 10250    |
+-------------------------------------------------------
 Total params: 1,284,170
 Trainable params: 1,284,170
 Non-trainable params: 0
-_________________________________________________________________
+-------------------------------------------------------
 
 ## Results
 ### Loss
