@@ -8,7 +8,7 @@ The CIFAR-10 dataset is a collection of images that are commonly used to train m
 
 ## The Model
 
-| Layer (type)        | Output Shape       |  Param N |
+| Layer (type)        | Output Shape       |  Param # |
 | ------------------- | ------------------ | -------- |
 | conv2d (Conv2D)     | (None, 15, 15, 32) | 896      |
 | conv2d_1 (Conv2D)   | (None, 7, 7, 64)   | 18496    |
@@ -18,11 +18,11 @@ The CIFAR-10 dataset is a collection of images that are commonly used to train m
 | dense (Dense)       | (None, 1024)       | 1180672  |
 | dropout_1 (Dropout) | (None, 1024)       | 0        |
 | dense_1 (Dense)     | (None, 10)         | 10250    |
--------------------------------------------------------
-Total params: 1,284,170
-Trainable params: 1,284,170
-Non-trainable params: 0
--------------------------------------------------------
+| ------------------- | ------------------ | -------- |
+| Total params: 1,284,170                             |
+| Trainable params: 1,284,170                         |
+| Non-trainable params: 0                             |
+| ------------------- | ------------------ | -------- |
 
 ## Results
 ### Loss
