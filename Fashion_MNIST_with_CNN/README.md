@@ -18,9 +18,9 @@ Fashion-MNIST is a dataset of Zalando's article images—consisting of a trainin
 | dense (Dense)                  | (None, 1024)       | 1049600 |
 | dense_1 (Dense)                | (None, 10)         | 10250   |
 
-Total params: 1,111,946
-Trainable params: 1,111,946
-Non-trainable params: 0                          
+Total params: 1,111,946                             
+Trainable params: 1,111,946                             
+Non-trainable params: 0                                                       
 
 ## Results
 ### Loss
