@@ -1,2 +1,2 @@
 # computer_vision
-A collection of various project using Computer Vision.
+A collection of various projects using Computer Vision.
