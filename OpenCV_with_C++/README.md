@@ -4,10 +4,11 @@ Usage of a few basic functions and capabilities of OpenCV with C++
   <img src="OpenCV\OpenCV\Assets\opencv.png" width="450">
 </p>
 ## Installation of OpenCV for C++
-* Go to https://github.com/opencv/opencv/releases
-* Install opencv-4.6.0-vc14_vc15.exe (there may be a newer version)
-* Add Path to Environment Variables "C:\opencv\build\x31\vc15\bin"
-* Open Visual Studio project C++ with x64 debug
+    * Go to https://github.com/opencv/opencv/releases
+    * Install opencv-4.6.0-vc14_vc15.exe (there may be a newer version)
+    * Add Path to Environment Variables "C:\opencv\build\x31\vc15\bin"
+    * Open Visual Studio project C++ with x64 debug
+    
 
 ## Basic Functions
 ### Original Image
@@ -48,7 +49,7 @@ Usage of a few basic functions and capabilities of OpenCV with C++
 
 ### Corped Image
 <p align="left">
-  <img src="mOpenCV\OpenCV\Assets\imgCrop.png" width="450">
+  <img src="OpenCV\OpenCV\Assets\imgCrop.png" width="450">
 </p>
 
 ## Draw Shapes and Text
@@ -84,6 +85,12 @@ Usage of a few basic functions and capabilities of OpenCV with C++
 </p>
 
 ## Shapes Detection
+### Originals Image
+<p align="left">
+  <img src="OpenCV\OpenCV\Resources\shapes.png" width="450">
+</p>
+
+### Detected Image
 <p align="left">
   <img src="OpenCV\OpenCV\Assets\detected_shapes.png" width="450">
 </p>
