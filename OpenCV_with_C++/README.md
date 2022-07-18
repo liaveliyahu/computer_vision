@@ -3,13 +3,13 @@ Usage of a few basic functions and capabilities of OpenCV with C++
 <p align="left">
   <img src="OpenCV\OpenCV\Assets\opencv.png" width="450">
 </p>
+
 ## Installation of OpenCV for C++
 Steps:
 * Go to https://github.com/opencv/opencv/releases
 * Install opencv-4.6.0-vc14_vc15.exe (there may be a newer version)
 * Add Path to Environment Variables "C:\opencv\build\x31\vc15\bin"
 * Open Visual Studio project C++ with x64 debug
-    
 
 ## Basic Functions
 ### Original Image
