@@ -85,7 +85,7 @@ Usage of a few basic functions and capabilities of OpenCV with C++
 </p>
 
 ## Shapes Detection
-### Originals Image
+### Original Image
 <p align="left">
   <img src="OpenCV\OpenCV\Resources\shapes.png" width="450">
 </p>
